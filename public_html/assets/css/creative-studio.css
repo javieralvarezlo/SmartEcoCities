@@ -11370,6 +11370,7 @@ p {
   font-size: 40px;
   font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1200 - 320)));
   margin-bottom: 0px;
+  color: green;
 }
 
 .widget-2 .widget-item .subtitle {
@@ -11377,6 +11378,7 @@ p {
   font-size: calc(13px + (17 - 13) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
   margin-bottom: -40px;
+  color: red;
 }
 
 @media (max-width: 575.98px) {
@@ -11605,7 +11607,7 @@ pre .code {
 }
 
 .custom-navbar .navbar-brand img {
-  width: 50px;
+  width: 200px;
 }
 
 .custom-navbar .nav-link {
@@ -11819,6 +11821,8 @@ pre .code {
   margin-top: -20px;
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
+  font-style: italic;
+
 }
 
 .header .overlay .title {
@@ -11980,4 +11984,9 @@ section .section-title {
   .about-wrapper .after {
     display: none;
   }
+}
+
+
+.widget-item h4 {
+  font-size: 1.2rem;
 }
