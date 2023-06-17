@@ -11049,7 +11049,7 @@ p {
 }
 
 .play-control {
-  padding: 0 0 0 10px;
+  padding: 0 0 0 2.5px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -11229,6 +11229,15 @@ p {
 }
 
 .testimonial-wrapper img {
+  background: #fff;
+  padding: 4px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.testi {
+  display: inline-block;
   background: #fff;
   padding: 4px;
   width: 90px;
